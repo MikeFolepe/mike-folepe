@@ -5,7 +5,7 @@ import { Mail } from 'lucide-react';
 
 export default function Contact() {
   const { language } = useLanguage();
-
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const content = {
     title: { en: 'Get In Touch', fr: 'Me Contacter' },
     subtitle: {
@@ -67,7 +67,7 @@ export default function Contact() {
         </div>
         <div className="text-center">
           <a
-            href="/resume.pdf"
+            href={`${basePath}/resume.pdf`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-primary)] text-white rounded-lg hover:bg-[var(--color-primary-hover)] transition-all"
           >
             {content.downloadCV[language]}

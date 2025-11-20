@@ -39,11 +39,9 @@ jobs:
         env:
           NODE_ENV: production
           
-      # ✅ AJOUT CRITIQUE 1 : Copier .nojekyll
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
         
-      # ✅ AJOUT CRITIQUE 2 : Copier les assets publics
       - name: Copy public assets
         run: |
           if [ -d "public" ]; then

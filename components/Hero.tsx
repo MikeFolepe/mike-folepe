@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   const { language } = useLanguage();
-
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
   const content = {
     title: {
       en: 'Mike Folepe',
@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="w-36 h-36 mx-auto mb-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center overflow-hidden">
           <Image
-            src="/profile.jpeg"
+            src={`${basePath}/profile.jpeg`}
             alt="Mike Folepe"
             width={144}
             height={144}
@@ -83,7 +83,7 @@ export default function Hero() {
             LinkedIn
           </a>
           <a
-            href="/resume.pdf"
+            href={`${basePath}/resume.pdf`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-surface)] text-[var(--color-text)] border border-[var(--color-border)] rounded-lg hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-all"
           >
             <Download size={20} />
