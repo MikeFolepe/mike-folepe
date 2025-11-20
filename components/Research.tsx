@@ -8,8 +8,8 @@ export default function Research() {
   const content = {
     title: { en: 'PhD & Research', fr: 'Doctorat & Recherche' },
     status: {
-      en: 'Starting PhD in 2025 focusing on AI systems for high-impact industrial and governmental applications',
-      fr: 'Début du doctorat en 2025 avec focus sur systèmes d\'IA pour applications industrielles et gouvernementales à fort impact',
+      en: 'Starting PhD in 2026 focusing on AI systems for high-impact industrial and governmental applications',
+      fr: 'Début du doctorat en 2026 avec focus sur systèmes d\'IA pour applications industrielles et gouvernementales à fort impact',
     },
     interestsTitle: { en: 'Research Interests', fr: 'Intérêts de Recherche' },
     interests: [
@@ -64,10 +64,7 @@ export default function Research() {
         </h2>
         <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl p-6 mb-8 text-center">
           <p>
-            <strong>Starting PhD in 2025</strong>{' '}
-            {language === 'en'
-              ? 'focusing on AI systems for high-impact industrial and governmental applications'
-              : 'avec focus sur systèmes d\'IA pour applications industrielles et gouvernementales à fort impact'}
+            {content.status[language]}
           </p>
         </div>
         <h3 className="text-2xl font-semibold text-center mb-6">
