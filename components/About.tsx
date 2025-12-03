@@ -13,8 +13,8 @@ export default function About() {
         fr: "Je suis ingénieur logiciel spécialisé en automatisation de systèmes, automatisation réseau, intégrations et outils internes. Je me concentre sur la construction de systèmes fiables et évolutifs qui résolvent des problèmes concrets.",
       },
       {
-        en: "I'm starting my PhD with the goal of developing deep technical expertise in AI systems and using it to support high-impact industrial and governmental projects. My research interests lie at the intersection of distributed systems, applied AI, and automation.",
-        fr: "Je débute mon doctorat dans le but de développer une expertise technique approfondie en systèmes d'IA et de l'utiliser pour soutenir des projets industriels et gouvernementaux à fort impact. Mes intérêts de recherche se situent à l'intersection des systèmes distribués, de l'IA appliquée et de l'automatisation.",
+        en: "I plan to start a PhD with the goal of developing deep technical expertise in AI systems and using it to support high-impact industrial and governmental projects. My research interests lie at the intersection of computer vision, deep learning, language and reinforcement learning.",
+        fr: "JJe prévois de commencer un doctorat dans le but de développer une expertise technique approfondie en systèmes d’intelligence artificielle et de l’utiliser pour soutenir des projets à fort impact dans les secteurs industriel et gouvernemental. Mes intérêts de recherche se situent à l’intersection de la vision par ordinateur, de l’apprentissage profond, du traitement du langage et de l’apprentissage par renforcement.",
       },
       {
         en: "I am also venturing into entrepreneurship: FoleTech Labs (software consulting for SMEs and public organizations) and MafHoney (artisanal honey brand). My long-term path is to work on high-stakes, complex technical problems and advise organizations at the intersection of software, automation, and applied AI.",

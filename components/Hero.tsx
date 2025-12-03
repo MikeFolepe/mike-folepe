@@ -13,8 +13,8 @@ export default function Hero() {
       fr: 'Mike Folepe',
     },
     subtitle: {
-      en: 'Software Engineer, PhD Student, Founder',
-      fr: 'Ingénieur Logiciel, Doctorant, Fondateur',
+      en: 'Software Engineer, Future PhD Student, Founder',
+      fr: 'Ingénieur Logiciel, Futur Doctorant, Fondateur',
     },
     tagline: {
       en: 'I build systems, automate processes, and design applied AI solutions for high-impact environments',

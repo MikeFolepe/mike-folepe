@@ -7,14 +7,14 @@ import { Menu, X } from 'lucide-react';
 export default function Navigation() {
   const { language, setLanguage } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
   const navItems = [
     { href: '#about', label: { en: 'About', fr: 'À propos' } },
     { href: '#expertise', label: { en: 'Expertise', fr: 'Expertise' } },
     { href: '#projects', label: { en: 'Projects', fr: 'Projets' } },
     { href: '#ventures', label: { en: 'Ventures', fr: 'Entreprises' } },
-    { href: '#research', label: { en: 'Research', fr: 'Recherche' } },
-    { href: '#blog', label: { en: 'Blog', fr: 'Blog' } },
+    // { href: '#research', label: { en: 'Research', fr: 'Recherche' } },
+    // { href: '#blog', label: { en: 'Blog', fr: 'Blog' } },
     { href: '#contact', label: { en: 'Contact', fr: 'Contact' } },
   ];
 

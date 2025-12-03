@@ -4,9 +4,9 @@ import About from '@/components/About';
 import Expertise from "@/components/Expertise";
 import Projects from "@/components/Projects";
 import Ventures from "@/components/Ventures";
-import Blog from "@/components/Blog";
+// import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
-import Research from "@/components/Research";
+// import Research from "@/components/Research";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -19,8 +19,8 @@ export default function Home() {
         <Expertise />
         <Projects />
         <Ventures />
-        <Research />
-        <Blog />
+        {/* <Research />
+        <Blog /> */}
         <Contact />
       </main>
       <Footer />

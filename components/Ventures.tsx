@@ -26,7 +26,7 @@ export default function Ventures() {
           en: 'Helping SMEs, technical teams, and public organizations modernize their systems, automate processes, and integrate AI into their operations through custom software solutions.',
           fr: 'Aider les PME, équipes techniques et organisations publiques à moderniser leurs systèmes, automatiser leurs processus et intégrer l\'IA dans leurs opérations via des solutions logicielles sur mesure.',
         },
-        cta: { en: 'Learn More →', fr: 'En savoir plus →' },
+        cta: { en: 'In Building →', fr: 'En construction →' },
       },
       {
         name: 'MafHoney',
@@ -38,7 +38,7 @@ export default function Ventures() {
           en: 'Crafting and importing high-quality artisanal honey with a focus on authenticity, traceability, and sustainable practices.',
           fr: 'Fabrication et importation de miel artisanal de haute qualité avec un focus sur l\'authenticité, la traçabilité et les pratiques durables.',
         },
-        cta: { en: 'Visit MafHoney →', fr: 'Visiter MafHoney →' },
+        cta: { en: 'In Building →', fr: 'En construction →' },
       },
     ],
   };
