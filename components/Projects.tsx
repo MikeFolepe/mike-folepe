@@ -14,24 +14,6 @@ export default function Projects() {
     },
     projects: [
       {
-        title: 'DocuFlow',
-        status: { en: 'In Development', fr: 'En Développement' },
-        description: {
-          en: 'Intelligent document management SaaS with automated workflows and AI-powered categorization',
-          fr: 'SaaS de gestion documentaire intelligente avec workflows automatisés et catégorisation par IA',
-        },
-        tags: ['Next.js', 'TypeScript', 'OpenAI', 'PostgreSQL'],
-      },
-      {
-        title: 'AutoTraceAI',
-        status: { en: 'In Development', fr: 'En Développement' },
-        description: {
-          en: 'Automated traceability system for manufacturing and supply chain operations',
-          fr: 'Système de traçabilité automatisée pour opérations de fabrication et chaîne d\'approvisionnement',
-        },
-        tags: ['Python', 'FastAPI', 'ML', 'Docker'],
-      },
-      {
         title: { en: 'Network Automation Toolkit', fr: 'Toolkit d\'Automatisation Réseau' },
         status: { en: 'Active', fr: 'Actif' },
         description: {
@@ -57,15 +39,6 @@ export default function Projects() {
           fr: 'Projet de recherche explorant l\'apprentissage par renforcement pour l\'optimisation de systèmes distribués',
         },
         tags: ['Python', 'PyTorch', 'Ray', 'Prometheus'],
-      },
-      {
-        title: { en: 'API Gateway Framework', fr: 'Framework API Gateway' },
-        status: { en: 'Active', fr: 'Actif' },
-        description: {
-          en: 'Lightweight, high-performance API gateway with built-in authentication and rate limiting',
-          fr: 'Gateway API léger et performant avec authentification et limitation de débit intégrées',
-        },
-        tags: ['Rust', 'Tokio', 'Redis', 'Docker'],
       },
     ],
   };
